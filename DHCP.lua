@@ -1,8 +1,8 @@
-os.loadAPI("/disk/easyfile.lua")
+os.loadAPI("/CC-Tools/easyfile.lua")
 local protocol = "dhcp"
-local logpath = "/customAPIs/dhcp.log"
-local hosts = "/customAPIs/hosts.log"
-local hostinfo = "/customAPIs/hostinfo.log"
+local logpath = "/logs/dhcp.log"
+local hosts = "/logs/hosts.log"
+local hostinfo = "/hostinfo/hostinfo.log"
 local name = os.getComputerLabel()
 local uid = os.getComputerID()
 

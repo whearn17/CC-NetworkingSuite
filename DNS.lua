@@ -1,9 +1,9 @@
-os.loadAPI("/disk/extrastring.lua")
-os.loadAPI("/disk/easyfile.lua")
+os.loadAPI("/CC-Tools/extrastring.lua")
+os.loadAPI("/CC-Tools/easyfile.lua")
 local protocol = "nl"
 local name = os.getComputerLabel()
-local hosts = "/customAPIs/hosts.log"
-local logpath = "/customAPIs/dns.log"
+local hosts = "/logs/hosts.log"
+local logpath = "/logs/dns.log"
 
 function host() --Binds the protocol and username for other PC's to look up
     rednet.host(protocol, name)
